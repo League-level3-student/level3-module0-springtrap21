@@ -4,8 +4,8 @@ import java.awt.Color;
 
 public class CrazyDigitalPainting {
     // 1. Create two final static integers for the width and height of the display.
-	final static int WIDTH = 0;
-	static final int HEIGHT = 0;
+	final static int WIDTH = 500;
+	static final int HEIGHT = 500;
 
     // 2. Create a 2D array of Color objects. You will need to import
     //    java.awt.Color. Initialize the size of the array using the 
@@ -29,6 +29,7 @@ public class CrazyDigitalPainting {
     	//done
         // 6. Use the ColorArrayDisplayer class to call the displayColorsAsImage method 
         //    to show off your picture.
+    	ColorArrayDisplayer.displayColorsAsImage(colors);
     }
 
     public static void main(String[] args) {
